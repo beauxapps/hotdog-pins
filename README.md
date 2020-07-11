@@ -17,19 +17,22 @@ I designed a little hotdog badge for fun at the top in illustrator. :)
 
 ## Installation
 
-clone this repo
-open terminal and cd into the project directory `cd hotdog-pins`
-checkout the master branch `git checkout master`
-install dependencies `npm install`
-start the app `npm start`
-cd into the api folder & start the server `cd api && node server.js`
+- clone this repo
+- open terminal and cd into the project directory `cd hotdog-pins`
+- checkout the master branch `git checkout master`
+- install dependencies `npm install`
+- start the app `npm start`
+- cd into the api folder & start the server `cd api && node server.js`
 
 ## Environment Variables
 
 i have included environment variables in the api > .env file. These will let your local instance of this app communicate with the demo account I've setup. However, since you don't have my email address and password to login to the stripe dashboard, you won't be able to view the stripe dashboard to verify output. 
 Setup a Stripe.com account (presumably you already have one). 
+
 Grab your Test API Keys from the Dashboard. 
+
 Edit the .env file, substituting your test API keys into the variables. 
+
 Restart your server.
 
 ## Usage
@@ -43,9 +46,9 @@ Go to localhost:3000 in your browser and you should see the hotdog pins ecommerc
 
 Test Cards (with any exp and ccv):
 
-`4242424242424242` -- no required authentication
-`4000002500003155` -- requires authentication
-`4000000000009995` -- declines codes for insufficient_funds
+- `4242424242424242` -- no required authentication
+- `4000002500003155` -- requires authentication
+- `4000000000009995` -- declines codes for insufficient_funds
 
 ## Logs
 
