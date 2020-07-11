@@ -56,5 +56,19 @@ View logs of payments on the server in "access.log" -- only 200 status codes are
 
 ## Webhooks 
 
-The server has a webhook endpoint. You can test this integration 
+The server has a webhook endpoint. You can test this integration by visiting [https://webhook.site/#!/84de61c6-4879-4cef-bac4-dfc2734323f7/9becc86a-9130-48db-9f57-635429ac9d0f/1] where you'll see the webhook activity from stripe for paymentINtent creation. If you use your own stripe account, this won't show your activity.
+
+To test the webhooks from your machine, you must have your own stripe account and environment variables set properly (see above) and you must have the stripe CLI installed. 
+
+Once installed, login to stripe by typing `stripe login` and follow the instructions. 
+
+Then type `stripe listen --forward-to http://localhost:4242/webhook`
+
+Then open a new terminal tab and type `stripe trigger payment_intent.succeeded`
+
+The log file and your `listen` tab should reflect the successful payment intent creations.
+
+Thanks! Don't hesitate to ask questions or submit issues! 
+
+I'll take this repo down once I hear back from you so there isn't work out there publicly. 
 
