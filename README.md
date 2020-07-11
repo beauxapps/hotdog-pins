@@ -26,7 +26,7 @@ I designed a little hotdog badge for fun at the top in illustrator. :)
 
 ## Environment Variables
 
-i have included environment variables in the api > .env file. These will let your local instance of this app communicate with the demo account I've setup. However, since you don't have my email address and password to login to the stripe dashboard, you won't be able to view the stripe dashboard to verify output. 
+I have included environment variables in the api > .env file. These will let your local instance of this app communicate with the demo account I've setup. However, since you don't have my email address and password to login to the stripe dashboard, you won't be able to view the stripe dashboard to verify output. 
 Setup a Stripe.com account (presumably you already have one). 
 
 Grab your Test API Keys from the Dashboard. 
