@@ -2,6 +2,7 @@
 # Hotdog Pins README
 
 **Hotdog Pins eCommerce Stripe Integration Take Home Assignment** 
+
 **Beau Babst, Candidate for Product Manager, Connect Role 2020** 
 
 
