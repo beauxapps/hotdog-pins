@@ -1,8 +1,8 @@
 
 # Hotdog Pins README
 
-** Hotdog Pins eCommerce Stripe Integration Take Home Assignment ** 
-** Beau Babst, Candidate for Product Manager, Connect Role 2020 ** 
+**Hotdog Pins eCommerce Stripe Integration Take Home Assignment** 
+**Beau Babst, Candidate for Product Manager, Connect Role 2020** 
 
 
 ![HotDog Pins-min](https://user-images.githubusercontent.com/7648723/87211720-b3df5c00-c2cf-11ea-9ffd-53d42d603661.gif)
