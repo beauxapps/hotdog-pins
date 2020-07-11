@@ -1,0 +1,8 @@
+::1 - - [10/Jul/2020:23:42:47 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
+::1 - - [10/Jul/2020:23:42:49 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
+::1 - - [10/Jul/2020:23:42:50 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
+::1 - - [10/Jul/2020:23:48:53 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
+::1 - - [10/Jul/2020:23:48:54 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
+::1 - - [10/Jul/2020:23:49:00 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
+::1 - - [10/Jul/2020:23:51:56 +0000] "POST /create-payment-intent HTTP/1.1" 200 127 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [10/Jul/2020:23:51:58 +0000] "POST /webhook HTTP/1.1" 200 17 "-" "Stripe/1.0 (+https://stripe.com/docs/webhooks)"

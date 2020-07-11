@@ -7,12 +7,19 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 app.use(express.static("."));
 //app.use(express.json());
 app.use(cors());
+var morgan = require('morgan')
 //const bodyParser = require('body-parser');
-
+app.use(morgan('combined', {
+  skip: function (req, res) { return res.statusCode < 400 }
+}))
+var fs = require('fs')
+var path = require('path')
 
 const port = 4242
 const priceInCents = 1200
 
+var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
+app.use(morgan('combined', { stream: accessLogStream }))
 
 const calculateOrderAmount = (quantity) => {
   const priceInCents = 1200
