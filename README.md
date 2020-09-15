@@ -1,9 +1,9 @@
 
 # Hotdog Pins README
 
-**Hotdog Pins eCommerce Stripe Integration Take Home Assignment** 
+**Hotdog Pins eCommerce Stripe Integration Test** 
 
-**Beau Babst, Candidate for Product Manager, Connect Role 2020** 
+**Beau Babst**
 
 
 ![HotDog Pins-min](https://user-images.githubusercontent.com/7648723/87211720-b3df5c00-c2cf-11ea-9ffd-53d42d603661.gif)
@@ -67,8 +67,4 @@ Then type `stripe listen --forward-to http://localhost:4242/webhook`
 Then open a new terminal tab and type `stripe trigger payment_intent.succeeded`
 
 The log file and your `listen` tab should reflect the successful payment intent creations.
-
-Thanks! Don't hesitate to ask questions or submit issues! 
-
-I'll take this repo down once I hear back from you so there isn't work out there publicly. 
 
